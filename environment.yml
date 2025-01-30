@@ -1,0 +1,14 @@
+
+name: toy-gnn
+channels:
+  - pytorch
+  - pyg
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pytorch
+  - pytorch-geometric
+  - pip
+  - pip:
+    - -e .
