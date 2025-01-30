@@ -20,6 +20,9 @@ wheels/
 .installed.cfg
 *.egg
 
+*.png
+*.pt
+
 # Environment
 .env
 .venv
